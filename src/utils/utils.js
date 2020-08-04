@@ -1,9 +1,20 @@
 import React from "react";
 import "../css/statusColours.css";
 
-export const formatDate = date => {
+export const formatDateAndTime = date => {
+  let options = {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: false
+  };
+
   let newDate = new Date(Date.parse(date));
-  let format = new Intl.DateTimeFormat("default").format(newDate);
+  let format = new Intl.DateTimeFormat("default", options).format(newDate);
+
   return format;
 };
 

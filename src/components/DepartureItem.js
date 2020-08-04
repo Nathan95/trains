@@ -4,7 +4,7 @@ import { status } from "../utils/utils";
 
 import "../css/DepartureItem.css";
 
-const DepartureItem = ({ date, stationName, departures }) => {
+const DepartureItem = ({ date, stationName, requestTime, departures }) => {
   let statusMessage = "Not yet available";
 
   if (departures.length === 0) {
@@ -27,7 +27,8 @@ const DepartureItem = ({ date, stationName, departures }) => {
               &#8592; Back to search
             </a>
             <h2>{stationName}</h2>
-            <span className="date">{date}</span>
+
+            <span className="date">{requestTime}</span>
             {departures.map(depart => (
               <ul key={depart.train_uid}>
                 <li>
