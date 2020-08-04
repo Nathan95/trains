@@ -34,7 +34,9 @@ class SearchAndDisplay extends React.PureComponent {
     if (filterStations.length === 0) {
       return (
         <React.Fragment>
-          Sorry but the entered station does not exist...
+          <span className="notFoundText">
+            Sorry but the entered station does not exist...
+          </span>
           <br />
           <button
             className="notFoundButton"

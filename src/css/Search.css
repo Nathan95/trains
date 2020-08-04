@@ -20,3 +20,18 @@ input {
   left: 4%;
   background: #c5e1a5;
 }
+
+.notFoundText {
+  font-weight: bold;
+  color: #c62828;
+}
+
+.notFoundButton {
+  background: #c62828;
+  padding: 0.7rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
