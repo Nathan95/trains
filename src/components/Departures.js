@@ -20,8 +20,6 @@ class Departures extends React.Component {
       return <Spinner />;
     }
 
-    console.log(station);
-
     return (
       <React.Fragment>
         <h1>Live Departures</h1>
