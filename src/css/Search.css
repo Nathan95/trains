@@ -1,0 +1,22 @@
+.container {
+  width: 500px;
+
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+input {
+  padding: 1rem;
+  border: 1px solid #9ccc65;
+  border-radius: 15px;
+  width: 28rem;
+  margin-top: 7rem;
+}
+
+.suggest {
+  position: absolute;
+  width: 92%;
+  left: 4%;
+  background: #c5e1a5;
+}

@@ -1,0 +1,18 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70rem;
+}
+
+.column {
+  width: 50%;
+  background: red;
+  margin-right: 2px;
+}
+
+h1 {
+  color: #ffa040;
+  justify-content: center;
+}

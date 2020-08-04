@@ -1,0 +1,27 @@
+hr {
+  background: white;
+}
+
+.result {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+  transition: 0.5s;
+}
+.result:first-of-type {
+  border-top: none;
+}
+
+.result:hover {
+  background: #6b9b37;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

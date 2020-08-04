@@ -1,0 +1,11 @@
+body {
+  background-image: url("../images/background.jpg");
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.spinner {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 10rem;
+}
